@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+div
+{
+	border: 2px solid thick;
+	height: 200px;
+	width: 200px;
+}

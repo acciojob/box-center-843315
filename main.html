@@ -4,10 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        /* Centering the box using position and transform */
+        .center-box {
+            position: absolute;       /* Absolute positioning relative to body */
+            top: 50%;                 /* 50% from top */
+            left: 50%;                /* 50% from left */
+            transform: translate(-50%, -50%); /* Move back by half width and height */
+            width: 200px;             /* Box width */
+            height: 200px;            /* Box height */
+            background-color: lightblue; /* Light-blue background */
+            border: 2px solid black;  /* Black border, 2px thick */
+            display: flex;            /* Flexbox to center text inside */
+            justify-content: center;  /* Horizontal centering of text */
+            align-items: center;      /* Vertical centering of text */
+        }
+		/* Text inside the box */
+        .center-box span {
+            color: purple;            /* Purple text color */
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="center-box">
+        <span>This is center.</span>
+    </div>
+
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
